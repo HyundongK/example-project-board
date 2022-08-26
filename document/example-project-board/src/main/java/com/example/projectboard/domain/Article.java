@@ -1,7 +1,6 @@
 package com.example.projectboard.domain;
 
 import lombok.Getter;
-<<<<<<< HEAD
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
@@ -12,11 +11,8 @@ import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-=======
 import lombok.ToString;
-
 import javax.persistence.Table;
->>>>>>> #13-db
 import java.time.LocalDateTime;
 import java.util.LinkedHashSet;
 import java.util.Objects;
@@ -24,7 +20,6 @@ import java.util.Set;
 
 @Getter
 @ToString
-<<<<<<< HEAD
 @Table(indexes ={
         @Index(columnList = "title"),
         @Index(columnList = "hashtag"),
@@ -33,9 +28,6 @@ import java.util.Set;
 })
 @EntityListeners(AuditingEntityListener.class)
 @Entity
-=======
-@Table(indexes = )
->>>>>>> #13-db
 public class Article {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
