@@ -1,5 +1,6 @@
 package com.example.projectboard.controller;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +17,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+
 //@WebMvcTest //WebMvc는 slice테스트 controller 밖에 가져오지않음(불필요한 내용들은 load하지 않음-> data rest의 auto configuration을 읽지않음)
+@Disabled("무의미한 테스트")
 @AutoConfigureMockMvc
 @SpringBootTest
 @Transactional //기본동작은 rollback
