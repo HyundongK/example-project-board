@@ -1,5 +1,7 @@
 package com.example.projectboard.domain.ccontroller;
 
+import com.example.projectboard.controller.ArticleController;
+import com.example.projectboard.domain.Article;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
