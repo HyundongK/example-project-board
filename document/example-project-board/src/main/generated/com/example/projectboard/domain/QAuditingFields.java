@@ -40,3 +40,4 @@ public class QAuditingFields extends EntityPathBase<AuditingFields> {
     }
 
 }
+

@@ -53,3 +53,4 @@ public class QArticle extends EntityPathBase<Article> {
     }
 
 }
+
