@@ -64,3 +64,4 @@ public class QArticleComment extends EntityPathBase<ArticleComment> {
     }
 
 }
+
